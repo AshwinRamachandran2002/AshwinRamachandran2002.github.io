@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Data Collection for Binary Classification"
+date:   2023-05-11 08:24:51 +0200
+categories: jekyll update
+published: false
+---
+
+# Introduction
+
+Scale AI is a company that synthesizes labels for data required by Machine Learning models.
+The labeling is done in-house by it's own workforce. The customers are often companies like 
+OpenAI which require labeling for it's sophisticated tasks.
+
+# Possibilities 
+
+1. One possibility is an App that is designed to manufacture labels for data for companies, use the population as a good workforce
+    and provide credits per 100s of images labeled
+
+    Problems:
+
+    1. Task shoud be such that, the cost is higher or infeasible with a synthetic label generation task
+
+    2. All classification tasks are possible DeepFakes, sentiment analysis, etc
+
+    3. Theory states (assuming less than third may be adverserial) atleast N/3 + 1 people should be given the image to get label.
+
+    4. Such a system, only offers a better UI than what companies already have.
+
+2. The other possibility is an App like Wordle or HotOrNot, that takes advantage of the UI
+
+    Problems:
+
+    1. The images that appear to the user should not be very evident that it is synthetic or natural
+        eg:- A photo of Trump comically laughing will be guessed as synthetic very easily
+             A low resolution photo of a crowded city will be guessed as natural very easily
+
+    2. Hence, the natural images being shown to the user should be of high resolution. (How do you query a high resolution natural image?)
+
+    3. We require the context of the artificial images shown be naturally possible. Hence, use the natural image as a query 
+        to obtain it's close artifical image equivalent. Possibly be done through image embeddings or Scene graphs (Experiment required)
+
+    4. The images can then be shown side by side or one at a time, asking to guess if it's natural or artifical
+
+    5. Since we have labels that a particular image is artifical, we display to the user the correct option, or how much of the population 
+        have chosen it.

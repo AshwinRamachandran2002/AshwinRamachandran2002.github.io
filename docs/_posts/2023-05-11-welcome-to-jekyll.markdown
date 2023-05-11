@@ -1,25 +1,48 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Privacy Preserving in ML"
 date:   2023-05-11 08:24:51 +0200
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+PrivateGPT
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Just identifies PII pf 50+ categories and removes it, not really privacy
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Homomorphic Encryption
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+It is a cryptographic method to perform computations tht are encrypted and produce 
+the same product had the operations been performed on an unencrypted data
+
+Applying to ML 
+
+https://youtu.be/culuNbMPP0k
+
+Existing work talk about construction of ML models with the computing infrastructure for 
+HME. But can HME based methods be applied to existing LLM models like OpenAI GPT-3.5?
+
+Applying to OpenAI models - FlanT5
+
+What are the computations done by FlanT5 model ?
+
+https://huggingface.co/blog/sentiment-analysis-fhe
+
+
+Applying it to ResNet-20: A case study
+https://arxiv.org/pdf/2106.07229.pdf
+
+Dont think its possible presently
+Have to develop FHE specific architecture models from scratch
+https://blog.openmined.org/ckks-explained-part-5-rescaling/
+https://github.com/zama-ai/concrete-ml/tree/release/1.0.x
+https://www.youtube.com/watch?v=-lhn2GdHhGc&ab_channel=GoogleTechTalks
+https://huggingface.co/papers/2305.05973
+https://arxiv.org/pdf/2210.02574.pdf
+https://www.youtube.com/watch?v=culuNbMPP0k&t=3397s&ab_channel=TheIACR
+
+
+MPC based solution
+
+
+https://arxiv.org/pdf/2211.01452.pdf

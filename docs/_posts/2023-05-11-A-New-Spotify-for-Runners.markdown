@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spotify Playlist Seggregation for Runners"
+title:  "Spotify Playlist Seggregation for Runners: Spotify Stride"
 date:   2023-05-11 08:24:51 +0200
 categories: jekyll update
 ---
@@ -18,7 +18,9 @@ The idea is to seggregate your spotify playlist into different playlists, accord
 
 2. Sort will be based upon the BPM (Spotify Metadata) of the song.
 
-3. Beta: Toggle feature to renew your playlist with new Songs
+3. Store Analytics and release Spotify Wrap every month
+
+4. Beta: Toggle feature to renew your playlist with new Songs
 
 
 # App Frontend (Version 1.0)
@@ -32,4 +34,9 @@ The idea is to seggregate your spotify playlist into different playlists, accord
     e. When playing from a specific playlist, if a song in the playlist has exceeded 3 plays, then we remove the song from the playlist 
         and add a new song according the Spotify Recommendation API
     
+# Working
+
+A selected song would be played for x seconds without interruption. When x minutes are up, then we choose the next song from the playlist
+according to the pace setting. The song will be played for x seconds and the process repeats.
+The x can be configured by the user, default would be 45 seconds.w
 # No backend required

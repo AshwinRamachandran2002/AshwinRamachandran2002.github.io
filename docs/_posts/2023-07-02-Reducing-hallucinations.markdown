@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "NCERT solution retriever"
-date:   2023-07-02 08:24:51 +0200
+title:  "Reducing Hallucinations"
+date:   2023-06-28 08:24:51 +0200
 categories: jekyll update
 ---
 
@@ -37,3 +37,4 @@ The DSP framework requires a manual setting of the number of hops it has to take
 I tested out the system on the NCERT Chemistry 12th standard TextBooks and asked it the questions posed to students as part of their CBSE board examination and received the correct in answer in 80 percent of the cases. 
 Few of the questions, it failed to answer correctly since the PDF couldn't be converted to a text format as it was a scanned copy. The equations were converted in a jumbled manner and the sections were not formatte properly. The PDFConverter used was the Langchain API.
 Another factor was the size of the chunk to divide the text into; I estimate the accuracy would have been better if specific sections and paragraphs were converted as one chunk instead of division on the basis of number of tokens in a chunk.
+I write a more detailed blog on the NCERT Question-Answer Retriever in another blog post.

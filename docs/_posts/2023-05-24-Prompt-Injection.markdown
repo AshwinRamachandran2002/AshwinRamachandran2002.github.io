@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prompt Injection in LLMs"
-date:   2023-05-22 08:24:51 +0200
+date:   2023-06-18 08:24:51 +0200
 categories: jekyll update
 ---
 

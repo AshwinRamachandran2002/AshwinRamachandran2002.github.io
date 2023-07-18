@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A viable IDEA"
-date:   2023-05-12 08:24:51 +0200
+title:  "Encrypted Embedding Similarity"
+date:   2023-06-05 08:24:51 +0200
 categories: jekyll update
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "NCERT solution retriever"
+description: march & april, looking forward to summer
 date:   2023-07-02 08:24:51 +0200
 categories: jekyll update
 ---

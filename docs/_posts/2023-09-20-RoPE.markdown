@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Investigating the Function of RoPE in context windows"
+description: march & april, looking forward to summer
 date: 2023-09-20 08:24:51 +0200
 categories: jekyll update
 ---

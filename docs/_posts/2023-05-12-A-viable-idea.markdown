@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Mini Project: A Third Party Service to Preserve Privacy in User Prompts to LLMs"
+description: march & april, looking forward to summer
 date:   2023-06-05 08:24:51 +0200
 categories: jekyll update
 ---

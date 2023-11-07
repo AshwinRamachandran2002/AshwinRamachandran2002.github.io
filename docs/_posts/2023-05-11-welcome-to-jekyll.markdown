@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Privacy Preservation in ML"
-description: march & april, looking forward to summer
+description: 
 date:   2023-05-27 08:24:51 +0200
-categories: jekyll update
 ---
 
 ## Introduction

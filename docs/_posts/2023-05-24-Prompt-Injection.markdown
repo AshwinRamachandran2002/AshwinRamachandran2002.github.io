@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Prompt Injection in LLMs"
-description: march & april, looking forward to summer
+description: 
 date:   2023-06-18 08:24:51 +0200
-categories: jekyll update
 ---
 
 ## Introduction

@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Spotify Playlist Seggregation for Runners: Spotify Stride"
-description: march & april, looking forward to summer
+description: 
 date:   2023-05-11 08:24:51 +0200
-categories: jekyll update
 ---
 
 # Introduction

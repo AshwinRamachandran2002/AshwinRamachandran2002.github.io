@@ -3,7 +3,7 @@ layout: post
 title:  "A Mini Project: A Third Party Service to Preserve Privacy in User Prompts to LLMs"
 description: 
 date:   2023-06-05 08:24:51 +0200
-`---
+---
 
 ## Introduction
 This post explores a system which could be used as a third party service to preserve privacy in user prompts to LLMs. The service would require a database of prompts that users could ask the LLM, and then an encrypted input from the user. The service would approximate the most similar prompt from the database and then send it to the LLM. A future version of the service could also be used to generate prompts without the need for a database, by reconstructing the embeddings using the same principle as cosine similarity.

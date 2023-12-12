@@ -2,6 +2,8 @@
 layout: page
 title: Database LLM Thesis
 permalink: /database-llm-thesis/
+redirect_from:
+  - /database-llms-thesis/
 description: Thesis.
 nav: true
 nav_order: 2

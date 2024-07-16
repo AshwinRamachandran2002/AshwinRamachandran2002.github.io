@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Project A"
+description: 
+date: 2024-07-16 08:24:51 +0200
+---
+
+# Problem
+How far is the most efficient embedding obtained using optimization and the emebddings created by the transformer during training?
+Are both the same?
+
+## Task
+- Get 3 sentences on Trump, that are facts around him
+- Now optimize for the embedding of Trump that best gives the 3 sentences in consideration
+- Compare the emebedding so obtained with actual Trump embedding
+
+## Experiment
+- Trump was chosen because it was a single token

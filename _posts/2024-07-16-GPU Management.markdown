@@ -8,8 +8,16 @@ date: 2024-07-16 08:24:51 +0200
 # Problem
 This is a project born out of the problems I faced during my time as a student researcher at IIT Bombay. The institute had a limited set of GPUs and there always existed infighting amongst us students to get priority access to the GPUs. GPU management was required.
 
+## Targets for a V1 solution
+- If a model is training, then it occupies a single GPU, not spread across several
+- A deployment script that
+    - automatically assigns a particular GPU for a model in queue
+    - checkpoint a model in between and remove from GPU
+    - redeploy a model on a different GPU
+- Should not be a added code, ONNX preferred
+- 
 
-# Design of a V1 Solution
+# Notes: Design of a V1 Solution
 ## First version limitations
 - Will not be model specific, hence treating all models the same
     - Should not matter according our algorithm

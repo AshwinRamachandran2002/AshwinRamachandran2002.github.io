@@ -23,19 +23,27 @@ During the summer of 2022, I interned at Google in Bangalore as a software engin
 Always on the lookout for new opportunities in CS!
 
 <!-- Popup Error Message -->
-<div id="errorPopup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:1000; padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <strong>Error:</strong> Something went wrong! Please try again later.
+<div id="errorPopup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:1000; padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width:1000px; height:500px;">
+  <strong style="font-size:50px;">Google Search Error:</strong> 
+  <br>
+  <p style="font-size:30px;">
+   Something went wrong! <br>To return back to safety, click <a id="dynamicLink" href="#" target="_blank">here</a>. <br> You can continue your search in the search engine there!
+  </p>
   <button style="float:right; background:none; border:none; color:#721c24; font-size:16px; cursor:pointer;" onclick="closePopup()">X</button>
 </div>
 
-<button onclick="showErrorPopup()">Test Error Popup</button>
-
 <script type="text/javascript">
-  function showErrorPopup() {
+  // Ensure popup is shown once the DOM is fully loaded
+  document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("errorPopup").style.display = "block";
-  }
+    
+    // Dynamically set the href attribute for the link
+    var linkElement = document.getElementById("dynamicLink");
+    linkElement.href = "https://eu.makeforms.co/trcj03g/";  // You can set this to any URL
+  });
 
   function closePopup() {
     document.getElementById("errorPopup").style.display = "none";
   }
 </script>
+

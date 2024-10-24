@@ -23,7 +23,7 @@ During the summer of 2022, I interned at Google in Bangalore as a software engin
 Always on the lookout for new opportunities in CS!
 
 <!-- Popup Error Message -->
-<div id="errorPopup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:9999; padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width:1000px; height:900px;">
+<div id="errorPopup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:9999; padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width:1000px; height:820px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/330px-Google_Images_2015_logo.svg.png" alt="Error Image" style="display:block; margin:0 auto 20px auto; width:200px; height:auto;">
 
   <strong style="font-size:50px; color:#721c24;">Google Search Engine Error:</strong> 

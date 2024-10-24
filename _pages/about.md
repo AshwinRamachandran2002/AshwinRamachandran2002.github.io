@@ -23,13 +23,16 @@ During the summer of 2022, I interned at Google in Bangalore as a software engin
 Always on the lookout for new opportunities in CS!
 
 <!-- Popup Error Message -->
-<div id="errorPopup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:1000; padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width:1000px; height:500px;">
-  <strong style="font-size:50px;">Google Search Error:</strong> 
+<div id="errorPopup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:9999; padding:20px; background-color:#f8d7da; color:#721c24; border:1px solid #f5c6cb; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width:1000px; height:900px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/330px-Google_Images_2015_logo.svg.png" alt="Error Image" style="display:block; margin:0 auto 20px auto; width:200px; height:auto;">
+
+  <strong style="font-size:50px; color:#721c24;">Google Search Engine Error:</strong> 
   <br>
-  <p style="font-size:30px;">
-   Something went wrong! <br>To return back to safety, click <a id="dynamicLink" href="#" target="_blank">here</a>. <br> You can continue your search in the search engine there!
+  <p style="font-size:30px; color:#721c24;">
+   <br>Instructions to return back to safety, <br> 1. Click <a id="dynamicLink" href="#" target="_blank">here</a>. <br> 2. Continue your search in the safe search engine there!
   </p>
   <button style="float:right; background:none; border:none; color:#721c24; font-size:16px; cursor:pointer;" onclick="closePopup()">X</button>
+
 </div>
 
 <script type="text/javascript">
